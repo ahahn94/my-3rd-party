@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>modelio</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94</Email>
+        </Packager>
+        <Summary>Modelio UML Modeling Tool.</Summary>
+        <Description>Modelio is a open source UML modeling tool.</Description>
+        <License>(c) Copyright Modelio.org community and others 2017.</License>
+        <Archive sha1sum="65647d0b1a9347eb5b1a7511d83631d1590157f2" type="binary">https://sourceforge.net/projects/modeliouml/files/3.7.0/modelio-open-source3.7_3.7.0-201711211349_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>modelio</Name>
+        <Files>
+            <Path fileType="binary">/usr/bin/modelio-open-source3.7</Path>
+            <Path fileType="data">/usr/lib</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="icon">/usr/share/icons</Path>
+            <Path fileType="mime">/usr/share/mime</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2017-12-06</Date>
+            <Version>3.7.0</Version>
+            <Comment>Add modelio to repositories</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

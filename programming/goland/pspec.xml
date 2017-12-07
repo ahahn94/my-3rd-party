@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>goland</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <Archive type="targz" sha1sum="e175e0a0164d31ddaddb00586dd9d038f6cba6ac">https://download.jetbrains.com/go/goland-2017.3.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/goland</Path>
+            <Path fileType="data">/usr/bin/goland</Path>
+            <Path fileType="data">/usr/share/applications/goland.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/goland.desktop">goland.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-05</Date>
+            <Version>2017.3</Version>
+            <Comment>Initial working Goland</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
