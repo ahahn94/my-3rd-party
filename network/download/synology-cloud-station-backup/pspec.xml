@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-cloud-station-drive</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Cloud Station Backup</Summary>
+        <Description>Cloud Station Backup is a backup tool for the Synology Cloud Station.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="e32219ffd0b92638ae83b29cfddddb50b71757a5" type="binary">https://global.download.synology.com/download/Tools/CloudStationBackup/4.2.5-4396/Ubuntu/Installer/x86_64/synology-cloud-station-backup-4396.x86_64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>synology-cloud-station-backup</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-28</Date>
+            <Version>4.2.5.4396</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
