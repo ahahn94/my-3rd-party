@@ -14,3 +14,9 @@ sudo eopkg it goland*.eopkg;sudo rm goland*.eopkg
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/modelio/pspec.xml
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
+
+## Synology Cloud Station Backup  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/download/synology-cloud-station-backup/pspec.xml
+sudo eopkg it synology-cloud-station-backup*.eopkg;sudo rm synology-cloud-station-backup*.eopkg
+```
