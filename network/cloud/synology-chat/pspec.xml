@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-chat</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Synology Chat</Summary>
+        <Description>Synology Chat is a chat program for the Synology Cloud Station.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="da305ff48173814cb9bddced02e11aa1718769bf" type="binary">https://global.download.synology.com/download/Tools/ChatClient/1.0.0-33/Ubuntu/x86_64/Chat_1.0.0-33_amd64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>synology-chat</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+          <AdditionalFile owner="root" permission="0755" target="/usr/share/applications/synochat.desktop">synochat.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-07</Date>
+            <Version>1.0.0.33</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

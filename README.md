@@ -15,6 +15,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
 
+## Synology Chat 
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/synology-chat/pspec.xml
+sudo eopkg it synology-chat*.eopkg;sudo rm synology-chat*.eopkg
+```
+
 ## Synology Cloud Station Backup  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/download/synology-cloud-station-backup/pspec.xml
