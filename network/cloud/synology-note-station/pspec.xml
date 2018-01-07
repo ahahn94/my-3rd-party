@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-note-station</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Synology Note Station</Summary>
+        <Description>Synology Note Station is a note taking program for the Synology Disk Station.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="bcb0dfb0a3463aaed5729b6217837a762bead865" type="binary">https://global.download.synology.com/download/Tools/NoteStationClient/2.1.0-230/Ubuntu/x86_64/synology-note-station-2.1.0-230-linux-x64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>synology-note-station</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+          <AdditionalFile owner="root" permission="0755" target="/usr/share/applications/synology-note-station.desktop">synology-note-station.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-07</Date>
+            <Version>2.1.0.230</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
