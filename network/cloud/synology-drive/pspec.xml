@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-drive</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Synology Drive</Summary>
+        <Description>Synology Drive is a cloud storage client for the Synology Disk Station.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="e96049778d9ea673389ef23c9e36a2cef4ec9790" type="binary">https://global.download.synology.com/download/Tools/SynologyDriveClient/1.0.0-10240/Ubuntu/Installer/x86_64/synology-drive-10240.x86_64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>synology-drive</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+          <AdditionalFile owner="root" permission="0755" target="/usr/share/applications/synology-drive.desktop">synology-drive.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-01-07</Date>
+            <Version>1.0.0.10240</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
