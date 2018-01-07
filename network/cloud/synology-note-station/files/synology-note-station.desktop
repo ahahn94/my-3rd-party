@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=2.0
+Name=Synology Note Station
+Comment=Synology Note Station for Desktop
+Exec="/opt/synology-note-station/launch.sh"
+Terminal=false
+Type=Application
+Icon=synology-note-station
+StartupWMClass=Synology Note Station
