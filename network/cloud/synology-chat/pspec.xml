@@ -8,7 +8,7 @@
             <Email>ahahn94@outlook.com</Email>
         </Packager>
         <Summary>Synology Chat</Summary>
-        <Description>Synology Chat is a chat program for the Synology Cloud Station.</Description>
+        <Description>Synology Chat is a chat program for the Synology Disk Station.</Description>
         <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
         <Archive sha1sum="da305ff48173814cb9bddced02e11aa1718769bf" type="binary">https://global.download.synology.com/download/Tools/ChatClient/1.0.0-33/Ubuntu/x86_64/Chat_1.0.0-33_amd64.deb</Archive>
         <BuildDependencies>
