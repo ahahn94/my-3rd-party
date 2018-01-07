@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Synology Drive
+Comment=Synology Drive
+Exec=synology-drive start
+Icon=/opt/Synology/SynologyDrive/images/ico_72_cloud_station.png
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;
+StartupWMClass=Synology Drive
