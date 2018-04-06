@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>goldencheetah</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Golden Cheetah</Summary>
+        <Description>Golden Cheetah is a set of analysis tools for cycling performance.</Description>
+        <License>GNU GPL v3.0</License>
+        <Archive sha1sum="1ef2e7811069011595b82fea8f14fae278e72bea" type="binary">https://github.com/GoldenCheetah/GoldenCheetah/releases/download/V3.4/GoldenCheetah_V3.4_Qt5.5.1_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>goldencheetah</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/GoldenCheetah.desktop">GoldenCheetah.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>libsamplerate</Dependency>
+            <Dependency>openssl</Dependency>
+            <Dependency>libusb</Dependency>
+            <Dependency>vlc</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>gstreamer-0.10</Dependency>
+            <Dependency>gst-plugins-base</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-04-06</Date>
+            <Version>3.4</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

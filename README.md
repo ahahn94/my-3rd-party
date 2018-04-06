@@ -9,6 +9,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it goland*.eopkg;sudo rm goland*.eopkg
 ```
 
+## GoldenCheetah  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/tools/goldencheetah/pspec.xml
+sudo eopkg it goldencheetah*.eopkg;sudo rm goldencheetah*.eopkg
+```
+
 ## Modelio  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/modelio/pspec.xml
