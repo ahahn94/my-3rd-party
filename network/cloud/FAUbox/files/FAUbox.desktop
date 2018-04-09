@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FAUbox
+Comment=File sync client for the university of Erlangen, Germany.
+Exec="/usr/share/FAUbox/FAUbox-Client.sh"
+Terminal=false
+Type=Application
+Icon=FAUbox
+Categories=Application;
+StartupWMClass=FAUbox

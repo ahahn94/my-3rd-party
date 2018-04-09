@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>FAUbox</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>FAUbox</Summary>
+        <Description>FAUbox is the file sharing client of the university of Erlangen, Germany.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="ce6810ff3b52bce9efb1c70887bcf9e5127bc927" type="binary">https://faubox.rrze.uni-erlangen.de/client_deployment/FAUbox_amd64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>FAUbox</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <AdditionalFiles>
+          <AdditionalFile owner="root" permission="0755" target="/usr/share/applications/FAUbox.desktop">FAUbox.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-04-09</Date>
+            <Version>1</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -3,6 +3,13 @@ This Repo offers some packages that did not make it into the 3rd party repo of S
 As with the normal 3rd party repo, packages need to be build on your system.
 
 # Install Instructions:  
+
+## FAUbox  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/FAUbox/pspec.xml
+sudo eopkg it FAUbox*.eopkg;sudo rm FAUbox*.eopkg
+```
+
 ## GoLand  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/goland/pspec.xml
