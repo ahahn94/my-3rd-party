@@ -22,6 +22,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it goldencheetah*.eopkg;sudo rm goldencheetah*.eopkg
 ```
 
+## Kotlin/Native  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/kotlin-native/pspec.xml
+sudo eopkg it kotlin-native*.eopkg;sudo rm kotlin-native*.eopkg
+```
+
 ## Modelio  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/modelio/pspec.xml
