@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>bonita-studio</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Bonita Studio Community</Summary>
+        <Description>Bonita Studio Community is a BPM modeling tool.</Description>
+        <License>GNU GPL v2.0</License>
+        <Archive sha1sum="11f5e760e1d5f8b79eb4e922e3007a9c63414ed7" type="binary">https://download.forge.ow2.org/bonita/BonitaStudioCommunity-7.6.3.zip</Archive>
+        <BuildDependencies>
+            <Dependency>unzip</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>bonita-studio</Name>
+        <Files>
+            <Path fileType="data">/opt/BonitaStudio</Path>
+            <Path fileType="binary">/usr/bin/bonita-studio</Path>
+            <Path fileType="data">/usr/share/applications/bonita-studio.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/bonita-studio.desktop">bonita-studio.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-04-13</Date>
+            <Version>7.6.3</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

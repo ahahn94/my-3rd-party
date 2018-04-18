@@ -4,6 +4,12 @@ As with the normal 3rd party repo, packages need to be build on your system.
 
 # Install Instructions:  
 
+## Bonita Studio  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/tools/bonita-studio/pspec.xml
+sudo eopkg it bonita-studio*.eopkg;sudo rm bonita-studio*.eopkg
+```
+
 ## FAUbox  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/FAUbox/pspec.xml

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Bonita Studio
+Comment=BPM modeling tool.
+Exec=bonita-studio
+Icon=/opt/BonitaStudio/bonitasoft-icon-128-128-transparent.png
+StartupWMClass=Bonita Studio
