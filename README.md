@@ -40,6 +40,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
 
+## Spring Tool Suite  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/spring-tool-suite/pspec.xml
+sudo eopkg it spring-tool-suite*.eopkg;sudo rm spring-tool-suite*.eopkg
+```
+
 ## Synology Chat
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/synology-chat/pspec.xml

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Spring Tool Suite
+Icon=/usr/share/spring-tool-suite/sts-3.9.4.RELEASE/icon.xpm
+Exec=STS %f
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=Spring Tool Suite

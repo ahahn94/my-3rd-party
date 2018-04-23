@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>spring-tool-suite</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94</Email>
+        </Packager>
+        <Summary>IDE for spring apps.</Summary>
+        <Description>Eclipse-based IDE for the developement of spring apps.</Description>
+        <License>(c) Copyright Pivotal 2018.</License>
+        <Archive sha1sum="ce0dea1e71c8aac059dbc84b3a8c683fc61ecc5e" type="binary">http://download.springsource.com/release/STS/3.9.4.RELEASE/dist/e4.7/spring-tool-suite-3.9.4.RELEASE-e4.7.3a-linux-gtk-x86_64.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>spring-tool-suite</Name>
+        <Files>
+            <Path fileType="binary">/usr/bin/STS</Path>
+            <Path fileType="mime">/usr/share/spring-tool-suite</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/spring-tool-suite.desktop">spring-tool-suite.desktop</AdditionalFile>
+        </AdditionalFiles>
+        <RuntimeDependencies>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-04-23</Date>
+            <Version>3.9.4</Version>
+            <Comment>Add spring-tool-suite to repositories</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
