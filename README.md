@@ -40,6 +40,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
 
+## Postman  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/postman/pspec.xml
+sudo eopkg it postman*.eopkg;sudo rm postman*.eopkg
+```
+
 ## Spring Tool Suite  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/spring-tool-suite/pspec.xml

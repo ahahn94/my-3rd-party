@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>postman</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <License>Proprietary</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Postman - an API Development Environment</Summary>
+        <Description xml:lang="en">Postman Makes API Development Simple.</Description>
+        <Archive type="targz" sha1sum="8e2f3f6e6ba2ebc662d8270c671b7b0fb7665bc9">https://dl.pstmn.io/download/latest/linux64</Archive>
+    </Source>
+    <Package>
+        <Name>postman</Name>
+        <Summary xml:lang="en">Postman - an API Development Environment</Summary>
+        <Description xml:lang="en">Postman Makes API Development Simple.</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/opt/Postman</Path>
+            <Path fileType="data">/usr/share/applications/postman.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/postman.desktop">postman.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-05</Date>
+            <Version>6.1.3</Version>
+            <Comment>Initial working Postman</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

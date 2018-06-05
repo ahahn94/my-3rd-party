@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Postman
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Exec=/opt/Postman/Postman
+Comment=Postman Makes API Development Simple.
+Categories=Development;
+Terminal=false
+StartupWMClass=postman
