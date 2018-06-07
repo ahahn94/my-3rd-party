@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>github-desktop</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94</Email>
+        </Packager>
+        <Summary>Simple collaboration from your desktop.</Summary>
+        <Description>Extend your GitHub workflow beyond your browser with GitHub Desktop, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.</Description>
+        <License>MIT</License>
+        <License>(c) Copyright Github 2018.</License>
+        <Archive sha1sum="2181d46ba66f06da881fa635ab8ccff17143a805" type="binary">https://github.com/shiftkey/desktop/releases/download/release-1.2.0/GitHubDesktop-linux-amd64-1.2.0.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>github-desktop</Name>
+        <Files>
+            <Path fileType="data">/opt/GitHubDesktop</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/github-desktop.desktop">github-desktop.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-07</Date>
+            <Version>1.2.0</Version>
+            <Comment>Add github-desktop to repositories</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

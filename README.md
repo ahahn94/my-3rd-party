@@ -16,6 +16,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it FAUbox*.eopkg;sudo rm FAUbox*.eopkg
 ```
 
+## Github Desktop  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/github-desktop/pspec.xml
+sudo eopkg it github-desktop*.eopkg;sudo rm github-desktop*.eopkg
+```
+
 ## GoLand  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/goland/pspec.xml

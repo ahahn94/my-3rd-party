@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GitHubDesktop
+Comment=Simple collaboration from your desktop
+Exec="/opt/GitHubDesktop/desktop" %U
+Terminal=false
+Type=Application
+Icon=/opt/GitHubDesktop/resources/app/static/icon-logo.png
+Categories=GNOME;GTK;Development;
