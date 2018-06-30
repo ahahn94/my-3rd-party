@@ -10,7 +10,7 @@
         <Summary>Kotlin/Native infrastructure.</Summary>
         <Description>Kotlin/Native infrastructure.</Description>
         <License>Apache 2.0, (c) JetBrains</License>
-        <Archive sha1sum="d30cdcbd76eee5e53ff4551cf51104729143cf80" type="binary">https://github.com/JetBrains/kotlin-native/releases/download/v0.6.2/kotlin-native-linux-0.6.2.tar.gz</Archive>
+        <Archive sha1sum="7587b34695d1c071860f749454085e4b487b6deb" type="binary">https://github.com/JetBrains/kotlin-native/releases/download/v0.7.1/kotlin-native-linux-0.7.1.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -26,6 +26,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="2">
+            <Date>2018-06-30</Date>
+            <Version>0.7.1</Version>
+            <Comment>Update to 0.7.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
         <Update release="1">
             <Date>2018-04-12</Date>
             <Version>0.6.2</Version>
