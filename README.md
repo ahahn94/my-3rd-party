@@ -46,6 +46,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
 
+## .NET Core  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/dotnet-core/pspec.xml
+sudo eopkg it dotnet-core*.eopkg;sudo rm dotnet-core*.eopkg
+```
+
 ## Postman  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/postman/pspec.xml
