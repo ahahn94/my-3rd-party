@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>tracktion-t7</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94</Email>
+        </Packager>
+        <Summary>Audio and midi workstation</Summary>
+        <Description>Tracktion is a powerful workstation for audio/midi recording and editing.</Description>
+        <License>(c) 2018 Tracktion Software Corporation.</License>
+        <Archive sha1sum="be2afebe8e480acf86220584c38f8d55f5c331cf" type="binary">https://cdn.tracktion.com/file/tracktiondownload/t7/TracktionInstall_7_Linux_64Bit_latest.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>tracktion-t7</Name>
+        <Files>
+            <Path fileType="binary">/usr/bin/Tracktion7</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="icon">/usr/share/pixmaps</Path>
+            <Path fileType="mime">/usr/share/mime</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>curl-gnutls</Dependency>
+            <Dependency>freetype2</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>mesalib</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>libxext</Dependency>
+            <Dependency>libxinerama</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-20</Date>
+            <Version>7.2.1</Version>
+            <Comment>Add tracktion-t7 to repositories</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
