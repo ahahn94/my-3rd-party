@@ -34,6 +34,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it goldencheetah*.eopkg;sudo rm goldencheetah*.eopkg
 ```
 
+## Helm  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/multimedia/music/helm/pspec.xml
+sudo eopkg it helm*.eopkg;sudo rm helm*.eopkg
+```
+
 ## Kotlin/Native  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/kotlin-native/pspec.xml
@@ -86,4 +92,10 @@ sudo eopkg it synology-cloud-station-backup*.eopkg;sudo rm synology-cloud-statio
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/synology-note-station/pspec.xml
 sudo eopkg it synology-note-station*.eopkg;sudo rm synology-note-station*.eopkg
+```
+
+## Tracktion  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/multimedia/music/tracktion-t7/pspec.xml
+sudo eopkg it tracktion-t7*.eopkg;sudo rm tracktion-t7*.eopkg
 ```
