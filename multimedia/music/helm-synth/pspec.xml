@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>helm-synth</Name>
+        <Packager>
+            <Name>mikakika</Name>
+            <Email>mika.kika@gmx.de</Email>
+        </Packager>
+        <Summary>Polyphonic synthesizer with realtime modulation feedback</Summary>
+        <Description>Helm is a MIDI enabled polyphonic music synthesizer with an easy to use
+ parameter modulation system with real-time graphical feedback.</Description>
+        <License>Copyright 2013-2017 Matt Tytel</License>
+        <License>GPL-3.0</License>
+        <Archive sha1sum="a36e2e6559f15abeec4680522e8fdecd2b90c989" type="binary">https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>helm-synth</Name>
+        <Files>
+            <Path fileType="binary">/usr/bin/helm</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/helm</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="icon">/usr/share/icons</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>freetype2</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>mesalib</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>libxext</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-21</Date>
+            <Version>0.9.0</Version>
+            <Comment>Add helm-synth to repositories</Comment>
+            <Name>mikakika</Name>
+            <Email>mika.kika@gmx.de</Email>
+        </Update>
+    </History>
+</PISI>
