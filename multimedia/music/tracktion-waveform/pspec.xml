@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>tracktion-waveform</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94</Email>
+        </Packager>
+        <Summary>Contemporary Music Production Software</Summary>
+        <Description>Contemporary Music Production Software.</Description>
+        <License>(c) 2018 Tracktion Software Corporation.</License>
+        <Archive sha1sum="a8ea96ac99906ff439fd36b5eb53c33b0aeadada" type="binary">https://cdn.tracktion.com/file/tracktiondownload/waveform/921/Waveform-installer-64bit-linux-9.2.1.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>tracktion-waveform</Name>
+        <Files>
+            <Path fileType="binary">/usr/bin/Waveform9</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="icon">/usr/share/pixmaps</Path>
+            <Path fileType="mime">/usr/share/mime</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>glibc</Dependency>
+            <Dependency>curl-gnutls</Dependency>
+            <Dependency>freetype2</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>mesalib</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>libxext</Dependency>
+            <Dependency>libxinerama</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-28</Date>
+            <Version>9.2.1</Version>
+            <Comment>Add tracktion-waveform to repositories</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -94,8 +94,14 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it synology-note-station*.eopkg;sudo rm synology-note-station*.eopkg
 ```
 
-## Tracktion  
+## Tracktion T7 
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/multimedia/music/tracktion-t7/pspec.xml
 sudo eopkg it tracktion-t7*.eopkg;sudo rm tracktion-t7*.eopkg
+```
+
+## Tracktion Waveform
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/multimedia/music/tracktion-waveform/pspec.xml
+sudo eopkg it tracktion-waveform*.eopkg;sudo rm tracktion-waveform*.eopkg
 ```
