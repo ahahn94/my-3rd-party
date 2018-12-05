@@ -10,6 +10,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it bonita-studio*.eopkg;sudo rm bonita-studio*.eopkg
 ```
 
+## Dart SDK  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/dart/pspec.xml
+sudo eopkg it dart*.eopkg;sudo rm dart*.eopkg
+```
+
 ## FAUbox  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/network/cloud/FAUbox/pspec.xml
