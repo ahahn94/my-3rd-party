@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>dart</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <License>BSD</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">Dart SDK</Summary>
+        <Description xml:lang="en">Dart SDK.</Description>
+        <Archive type="binary" sha1sum="75840c6785681a88c9a5c46a23f95dec63de47d8">https://storage.googleapis.com/dart-archive/channels/stable/release/latest/linux_packages/dart_2.1.0-1_amd64.deb</Archive>
+    </Source>
+    <Package>
+        <Name>dart</Name>
+        <Summary xml:lang="en">Dart SDK</Summary>
+        <Description xml:lang="en">Dart SDK.</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="data">/usr/bin/dart</Path>
+            <Path fileType="data">/usr/lib/dart</Path>
+            <Path fileType="data">/usr/share/doc</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>liblttng-ust</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-12-05</Date>
+            <Version>2.1.0</Version>
+            <Comment>Initial working Dart</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
