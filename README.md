@@ -58,6 +58,12 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-p
 sudo eopkg it modelio*.eopkg;sudo rm modelio*.eopkg
 ```
 
+## mypkg  
+```
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/system/mypkg/pspec.xml
+sudo eopkg it mypkg*.eopkg;sudo rm mypkg*.eopkg
+```
+
 ## .NET Core  
 ```
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ahahn94/my-3rd-party/master/programming/dotnet-core/pspec.xml

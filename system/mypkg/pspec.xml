@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://solus-project.com/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>mypkg</Name>
+        <Packager>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Packager>
+        <Summary>Helper script for Solus 3rd party packages.</Summary>
+        <Description>mypkg is a wrapper around eopkg to simply building, installing/removing and updating packages from the Solus 3rd party repo.</Description>
+        <License>GNU GPL v2.0</License>
+        <Archive sha1sum="b5010c031052fa0f58ddb018b77fffb336276f93" type="tarxz">https://github.com/ahahn94/mypkg/raw/master/mypkg-3.0.tar.xz</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>mypkg</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>python3</Dependency>
+        </RuntimeDependencies>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-01-05</Date>
+            <Version>3.0</Version>
+            <Comment>Initial Inclusion</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
