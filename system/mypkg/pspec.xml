@@ -10,7 +10,7 @@
         <Summary>Helper script for Solus 3rd party packages.</Summary>
         <Description>mypkg is a wrapper around eopkg to simply building, installing/removing and updating packages from the Solus 3rd party repo.</Description>
         <License>GNU GPL v2.0</License>
-        <Archive sha1sum="b5010c031052fa0f58ddb018b77fffb336276f93" type="tarxz">https://github.com/ahahn94/mypkg/raw/master/mypkg-3.0.tar.xz</Archive>
+        <Archive sha1sum="364ce5547074e52eb2fa5014c730fb47f7ede567" type="tarxz">https://github.com/ahahn94/mypkg/raw/master/mypkg-3.1.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
@@ -25,6 +25,13 @@
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="2">
+            <Date>2019-01-06</Date>
+            <Version>3.1</Version>
+            <Comment>Update to 3.1</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+        </Update>
         <Update release="1">
             <Date>2019-01-05</Date>
             <Version>3.0</Version>
