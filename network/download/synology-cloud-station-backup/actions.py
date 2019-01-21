@@ -9,7 +9,7 @@ NoStrip = ["/"]
 IgnoreAutodep = True
 
 def setup():
-    shelltools.system("ar xf synology-cloud-station-backup-4396.x86_64.deb")
+    shelltools.system("ar xf synology-cloud-station-backup-4421.x86_64.deb")
     shelltools.system("tar xf data.tar.gz")
 
 def install():
