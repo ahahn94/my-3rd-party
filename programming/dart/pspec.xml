@@ -21,9 +21,6 @@
             <Path fileType="data">/usr/lib/dart</Path>
             <Path fileType="data">/usr/share/doc</Path>
         </Files>
-        <RuntimeDependencies>
-            <Dependency>liblttng-ust</Dependency>
-        </RuntimeDependencies>
     </Package>
     <History>
         <Update release="1">
