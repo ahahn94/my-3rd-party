@@ -9,7 +9,7 @@
         <PartOf>programming</PartOf>
         <Summary xml:lang="en">Postman - an API Development Environment</Summary>
         <Description xml:lang="en">Postman Makes API Development Simple.</Description>
-        <Archive sha1sum="9ddc056b36c39a381b0dd500d6442e235ff80a19" type="targz">https://dl.pstmn.io/download/latest/linux64</Archive>
+        <Archive sha1sum="d61915367fb6d3821470ef41ec78bbf309dca1d4" type="targz">https://dl.pstmn.io/download/latest/linux64</Archive>
     </Source>
     <Package>
         <Name>postman</Name>
@@ -25,6 +25,13 @@
         </AdditionalFiles>
     </Package>
     <History>
+        <Update release="4">
+            <Date>2019-06-25</Date>
+            <Version>7.2.2</Version>
+            <Comment>Updated to 7.2.2</Comment>
+            <Name>ahahn94</Name>
+            <Email>ahahn94@outlook.com</Email>
+            </Update>
         <Update release="3">
             <Date>2019-01-29</Date>
             <Version>6.7.2</Version>
